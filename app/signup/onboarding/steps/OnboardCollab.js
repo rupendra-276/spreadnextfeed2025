@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import { useSelector } from "react-redux";
-import CollabButton from "../../components/CollabButton";
-import FollowButtonUniversal from "../../components/FollowButton";
-import { TruncateText } from "../../helper/truncateText";
+import CollabButton from "../../../components/CollabButton";
+import FollowButtonUniversal from "../../../components/FollowButton";
+// import { TruncateText } from "../../helper/truncateText";
 
 export default function CollabStep({ data, updateData }) {
   const { users, companies } = useSelector((s) => s.users);

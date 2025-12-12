@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import FormDropdown from "../../components/FormDropdown";
-import SearchableDropdown from "../../components/SearchableDropdown";
+import FormDropdown from "../../../components/FormDropdown";
+import SearchableDropdown from "../../../components/SearchableDropdown";
 
 export default function JobAlertStep({ data, updateData }) {
   const careerExpectations = data.careerExpectations || {};

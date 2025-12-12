@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import LocationSelector from "../../components/LocationSelector";
+import LocationSelector from "../../../components/LocationSelector";
 import FormDropdown from "@/app/components/FormDropdown";
 
 export default function PersonalInfoStep({ data, updateData }) {
