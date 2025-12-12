@@ -31,7 +31,7 @@ export default function ExperienceList({
   return (
     <div>
       <div className="relative border-l-2 border-gray-300 ml-2 mt-4 space-y-8">
-        {(showAll ? experiences : experiences.slice(0, 2)).map((exp, idx) => (
+        {(showAll ? experiences : experiences?.slice(0, 2)).map((exp, idx) => (
           <div key={idx} className="relative pl-6">
             {/* Logo */}
             <div className="absolute -left-[30px] ms-1 flex items-center justify-center">

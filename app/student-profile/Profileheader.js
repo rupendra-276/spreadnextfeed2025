@@ -51,11 +51,11 @@ export default function ProfileHeader({ user }) {
   }, [currentUser?.following, user?.id]);
 
   const rightColumnItems = [
-    ...(displayUser.experience || []),
-    ...(displayUser.college
+    ...(displayUser?.experience || []),
+    ...(displayUser?.college
       ? Array.isArray(displayUser.college)
-        ? displayUser.college
-        : [displayUser.college]
+        ? displayUser?.college
+        : [displayUser?.college]
       : []),
   ]
     .slice(0, 2)
